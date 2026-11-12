@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: online-registration-demo
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
